@@ -1,1 +1,1 @@
-#I denne mapper liggger der foto
+# I denne mapper liggger der foto

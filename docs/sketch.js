@@ -13,7 +13,7 @@ let images =['52797017_368183417367627_2446544797800857600_n.jpg',
 function nextImage(){
  ++i
   let imageIndex = i % images.length
-  img.attribute('src','./docs/images/'+ images[imageIndex]);
+  img.attribute('src','./images/'+ images[imageIndex]);
 
 }
 function imageRotate(){

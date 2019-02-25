@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  backGround-image: url("ruc.jpg");
+  background-position: center; /* Center the image */
+ }
+canvas {
+  display: block;
+}
+h1{
+color:red;
+}

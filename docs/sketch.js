@@ -1,19 +1,19 @@
 let img = {};
 let i = 0;
-let images =[“52797017_368183417367627_2446544797800857600_n.jpg”,
-“52938785_375232346399103_8364858157998014464_n.jpg”,
-“EAD568A1-46D9-404A-90AD-FFE51648C02A.jpeg”,
-“IMG_20190225_145310.jpg”,
-“IMG_20190225_145640.jpg”,
-“IMG_4948.JPG”,
-“aamose.jpg”,
-“charlotte.jpg”,
-“pide1.jpeg”];
+let images =['52797017_368183417367627_2446544797800857600_n.jpg',
+'52938785_375232346399103_8364858157998014464_n.jpg',
+'EAD568A1-46D9-404A-90AD-FFE51648C02A.jpeg',
+'IMG_20190225_145310.jpg',
+'IMG_20190225_145640.jpg',
+'IMG_4948.JPG',
+'aamose.jpg',
+'charlotte.jpg',
+'pide1.jpeg'];
 
 function nextImage(){
  ++i
   let imageIndex = i % images.length
-  img.attribute('src',images[imageIndex]);
+  img.attribute('src','./docs/images/'+ images[imageIndex]);
 
 }
 function imageRotate(){

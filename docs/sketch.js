@@ -32,6 +32,7 @@ function bygKnap(navn,metode){
 
 function setup() {
   img = createImg('./images/'+ images[0]).parent(select("#billede"));
+  img.attribute('width','90%');
   bygKnap("roter med uret",imageRotate)
   bygKnap("roter mod uret",imageRotateMU)
   bygKnap("næste billeder",nextImage)

@@ -37,3 +37,4 @@ function setup() {
   bygKnap("næste billeder",nextImage)
          
   }
+

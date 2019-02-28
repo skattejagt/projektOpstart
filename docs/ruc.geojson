@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "navn": "SDM-lab",
+        "info": "her har vi workshop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.141244411468506,
+          55.65325807963041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "navn": "kantine",
+        "info": "Absolons er bedere"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.139592170715332,
+          55.6536818018332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "navn": "bibliotek",
+        "info": "Hvem bruger bøger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.136459350585936,
+          55.65167210725494
+        ]
+      }
+    }
+  ]
+}
